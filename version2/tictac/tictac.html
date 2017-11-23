@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic-tac-toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="style.css">
+  <script src="tic.js"></script>
+
+
+
+  
+</head>
+
+<body>
+<div id="menu">
+      <ul>
+        <li><a href="http://localhost/version2/homepage.html">Home</a></li>
+        <li><a href="http://localhost/version2/aboutus/index.html">About Us</a></li>
+        <li><a href="http://localhost/version2/tictac/tictac.html">Restart</a></li>
+      </ul>
+    </div>
+
+<div id="inst"><h1>Tic Tac Toe</h1></div>
+
+  
+<div class="tic-tac-toe">
+	<div id="_1" class = "block"></div>
+	<div id="_2" class = "block"></div>
+	<div id="_3" class = "block"></div><br>
+	<div id="_4" class = "block"></div>
+	<div id="_5" class = "block"></div>
+	<div id="_6" class = "block"></div><br>
+	<div id="_7" class = "block"></div>
+	<div id="_8" class = "block"></div>
+	<div id="_9" class = "block"></div><br>
+</div>
+<div id="mn">
+<div id="choose">How tough are you?</div>
+<ul id="list">
+	<li class="btn easy" onclick="setLevel('easy')">Go Easy on Me</li>
+	<li class="btn med" onclick="setLevel('med')">I don't Know</li>
+	<li class="btn hard" onclick="setLevel('hard')">Bring it on!</li>
+</ul>
+<div id="choose"> Done?</div>
+<div class="btn" onclick="start()" id="start">Lets Roll</div>
+</div>
+<div class="last">
+	<div id="msg"></div>
+    <span class="btn"> <a href="">Restart</a></span>
+    <a href="http://localhost/version2/homepage.html"><span id="close" class="btn"> Close</span></a>
+</div>
+
+
+</body>
+</html>

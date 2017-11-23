@@ -1,0 +1,197 @@
+body {
+			background-color:#0B3450; 
+
+		}
+
+
+@font-face {
+font-family: stylish;
+src: url("ShadowsIntoLight.ttf");
+}
+
+
+@media only screen and (min-width: 769px){
+			
+		#b1{
+			display: flex; 
+		}
+
+		
+		#subh{
+			font-size: 30%;
+			color: #0D47A1;
+			font-family:sans-serif; 
+			-webkit-text-stroke-width:1px;
+			-webkit-text-stroke-color:white;
+			}
+			
+		#line{
+			background: #FFF;
+			align-self: left;
+			width: 60%;
+			height: 10px;
+			border-radius: 20px;
+		}
+
+		.nav{
+			list-style: none;
+			display: block;
+			padding-bottom: 1%;
+		margin-bottom: 0px;}
+
+		.navele{
+			font-weight: bold;
+			font-family: 'stylish';
+			display: inline;
+			font-size: 1.5em;
+			border: 2px solid black;
+			color: white;
+			background-color: #01579B;
+			padding-left: 1%;
+			padding-right:1%;
+			margin-left:1200px;
+			position:absolute;
+			margin-top:-40px;	
+			align-content: center;
+			border-color: gray;
+			border-radius: 10%;}
+					
+		.navele:hover{
+			background-color: darkgray;}
+
+		.heading{
+			position: relative;
+			text-align: center;
+			margin-top: 7%;
+			font-weight: bold;
+			text-decoration: none;
+			font-family: stylish;
+			color: white;
+			font-size: 3.5em;
+		 }
+
+		
+					
+		.nav_a{
+			text-decoration: none;
+			color: white;
+			font-size: 100%;}
+
+		
+}
+
+
+.games{
+
+	text-align: center;
+	margin-top: 20px;
+	background-color: white;
+	border-radius: 10px;
+
+}
+
+.game1{
+	margin:30px;
+	height:225px;
+	width:300px;
+	display: inline-block;
+	box-shadow: 10px 10px 8px #081E23;
+	transition: all 0.3s linear;
+
+
+	
+}
+
+.game1:hover{
+	box-shadow: 15px 15px 13px #081E23;	
+}
+
+.game2{
+	margin:30px;
+	height:225px;
+	width:300px;
+	display: inline-block;
+	box-shadow: 10px 10px 8px #081E23;
+	transition: all 0.3s linear;
+
+}
+.game2:hover{
+	box-shadow: 15px 15px 13px #081E23;	
+
+}
+
+
+.game3{
+	margin:30px;
+	height:225px;
+	width:300px;
+	display: inline-block;
+	box-shadow: 10px 10px 8px #081E23;
+	transition: all 0.3s linear;
+}
+.game3:hover{
+	box-shadow: 15px 15px 13px #081E23;	
+}
+
+
+.leader{
+	border:1 px solid black;	
+	position:absolute;
+	margin-top:-530px;
+	margin-left:550px;
+	text-decoration: none;
+	color: green;
+	font-size:1	.5em;
+	font-family: system-ui;
+	}
+
+
+
+#menu {
+
+     margin: 5px 5px 5px 5px;
+     width: 97.7%;
+     background-color: #0B6291;
+     font-size: 16px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-weight: bold;
+     text-align: left;
+     padding: 8px;
+     border-radius: 8px;
+     position: fixed;
+     left: 0px;
+     top: 0px;
+     overflow-x: hidden;
+}
+
+#menu ul {
+     margin: 0;
+     padding: 8px 0;
+     list-style: none;
+     height: auto;
+}
+
+#menu li {
+     display: inline;
+     padding: 8px;
+}
+
+#menu a {
+     color: #FFF;
+     padding: 10px;
+     text-decoration: none;
+}
+
+#menu a:hover {
+     background-color: #28566d;
+     color: #FFF;
+     border-radius: 15px;
+}
+
+#menu li .active {
+     background-color: #09293A;
+     color: #FFF;
+     border-radius: 15px;
+}	
+	
+

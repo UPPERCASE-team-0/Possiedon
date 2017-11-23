@@ -1,0 +1,119 @@
+@media only screen and (min-width : 700px){
+			/* the animation when u press PLAY button */
+			@keyframes colorchange {
+				0% { background-color: white; }
+				100%{background-color: black;}
+			}
+
+			@keyframes alertmessage {
+				0% { background-color: black; }
+				50%{background-color: #93240C;}
+				100%{background-color: black}
+			}
+
+			/* body */
+			
+			#home{
+				background-image: url(../img/homeback.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+			}
+			
+			#mainGameBox{
+				background-color: lightgreen;
+				width: 75%;
+				margin: auto;
+				padding: 1%;
+				box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+				background-color: rgba(0,0,0,0.7);
+			}
+
+			#canvasBox{
+				background-color: rgba(0,0,0,0);
+				width: 700px;
+				margin: auto;
+			}
+
+			#gameCanvas{
+			    border: 1px solid black;
+			    /*cursor: url("img/almosttransparent.png"), none;*/
+			    display: table;
+			    margin: 0 auto;
+			    background-color: grey;
+			    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+			    border-radius: 3%;
+			    opacity: 0.8;
+			    
+			}
+			
+			#gameCanvas1{
+			    border: 1px solid black;
+			    cursor:  none;
+			    display: table;
+			    margin: 0 auto;
+			    background-color: grey;
+			    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+			    border-radius: 3%;
+			    opacity: 0.8;
+			    animation: colorchange 1.5s ;
+				animation-fill-mode: forwards;
+			}
+
+			
+
+			#buttonBox{
+				margin: auto;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				display: table;
+				background-color: blue;
+				width: 18%;
+			}
+
+			#playButton{
+				padding: 3%;
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+				border-radius: 3px;
+				width: 100%;
+				color: white;
+				background-color: black;
+				font-size: 15px;
+				transition-duration: 0.4s;
+			}
+
+			#playButton:hover{
+				width: 100%;
+				font-weight: bold;
+				font-size: 100%;
+				color: black;
+				background-color: white;
+			}
+
+			#navbar{
+				background-color: rgba(0,0,0,0.7);
+				border: 1px solid black;
+			}
+
+			#nav{
+				list-style-type: none;
+			}
+
+			#nav > li{
+				display: inline;
+				margin-left: 20px;
+			}
+
+			a{
+				text-decoration: none;
+				color: white;
+				font-weight: bold;
+				transition-duration: 0.5s
+			}
+
+			a:hover{
+				color: gray;
+			}
+}
+
+

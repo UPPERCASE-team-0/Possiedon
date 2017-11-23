@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+    <title></title>
+	<link href="jigsaw.css" type="text/css" rel="stylesheet" />
+   
+		
+	
+</head>
+
+<body class="home">
+	
+	
+   <h1  id="divid1" align="center">Choose the photo</h1>
+   <div class="thisimgdiv">
+		<div class="first" onclick="i1()"><img class="fimg" id="fimg" src="1.jpeg" height="120px" width="200px"></img></div>
+		<div class="second" onclick="i2()"><img class="simg" id="simg" src="2.jpg" height="120px" width="200px"></img></div>
+		<div class="third" onclick="i3()"><img class="timg" id="timg" src="3.jpg" height="120px" width="200px"></img></div>
+		<div class="fourth" onclick="i4()"><img class="foimg" id="foimg" src="4.jpg" height="120px" width="200px"></img></div>
+		<div class="fifth" onclick="i5()"><img class="fiimg" id="fiimg" src="5.jpg" height="120px" width="200px"></img></div>
+	</div>
+
+
+	<h1 id="divid0"> <center>Select the Difficulty level<center></h1>
+	<div id="divid">
+	
+	<input class="b1" type="button" name="1" value="1" onclick="sethard(this)" ></input>
+	<input class="b2" type="button" name="2" value="2" onclick="sethard(this)"></input>
+	<input class="b3" type="button" name="3" value="3" onclick="sethard(this)"></input>
+	<input class="b4" type="button" name="4" value="4" onclick="sethard(this)"></input>
+	<input class="b5" type="button" name="5" value="5" onclick="sethard(this)"></input>
+	<input class="b6" type="button" name="6" value="6" onclick="sethard(this)"></input>
+	<input class="b7" type="button" name="7" value="7" onclick="sethard(this)"></input>
+	<input class="b8" type="button" name="8" value="8" onclick="sethard(this)"></input>
+	<input class="b9" type="button" name="9" value="9" onclick="sethard(this)"></input>
+	<input class="b10" type="button" name="10" value="10" onclick="sethard(this)"></input>
+	
+	
+	
+
+	
+	</div>
+		
+	
+	<!--<div class="res"><li class="navele1"><a class="nava0" onclick="setvar()" > Restart</a></div>
+	<div class="ele"><li class="navele0"><a class="nava0" href="../homepage.html"> Home</a></div>
+	-->
+	<div class="backg" id="b2">
+	<ul class="nav">
+		<span class="ele"><li class="navele0"><a class="nava0" id="res" onclick="setvar()"> Restart</a></li></span>
+		<span class="ele"><li class="navele2"><a class="nava2" id="menu" href="jigsaw.html"> Menu </a></li></span>
+		<span class="ele"><li class="navele1"><a class="nava1" href="../homepage.html"> Home</a></div>
+	</ul>
+	</div>
+	
+	
+	<div id="viewp" display="none"></div>
+	<center>
+	<canvas  id="canvas"></canvas>
+	</center>
+	<script  src="jigsaw1.js">
+		
+	</script>
+	
+</body>
+
+	
+</html>

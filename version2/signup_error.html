@@ -1,0 +1,68 @@
+
+<!DOCtype.html>
+<html>
+<head>
+	<script>/*
+		var a=document.getElementById("p1").value;
+		var b=document.getElementById("p2").value;
+		if(a!=b)
+		{
+			var c = document.createElement("div");
+			c.class="errormsg";
+			c.textContent="Password doesn't match";
+			document.body.appendChild(c);
+		}*/
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Poseidon</title>
+	<link href="signup.css" type="text/css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> <!--For google fonts-->
+</head>
+<body class="home">
+<div class="backg" id="b1">
+	<div class="imgg"><img src="logo1.png" alt="LOGO"/></div><div class="heading"> POSIEDON <span id="subh"> Play beyond this world!</span></div>
+</div>
+<div class="backg" id="b2">
+	<div id="line"></div>
+
+
+</div>
+<center>
+
+<div class="login_form">
+	
+	<form action="signup.php" method="POST">
+			<div style="padding-top: 2%" >
+			<label style="text-align: left;" >
+				<span class="indic"> Full Name: </span><br>
+				<input class="txt" type="text" name="fl_nm"/><br>
+    		</label>
+    		</div>
+			<div style="padding-top: 2%" >
+			<label style="text-align: left;" >
+				<span class="indic"> User Name: </span><br>
+				<input class="txt" type="text" name="usr_nm"/><br>
+    		</label>
+    		</div>
+    		<div style="padding-top: 2%">
+    			<label ><span class="indic"> Password: </span><br>
+				<input id="p1" class="txt" type="password" name="pw"/><br>
+    			</label>
+    		</div>
+    		<div style="padding-top: 2%">
+    			<label ><span class="indic"> Confirm Password: </span><br>
+				<input id="p2" class="txt" type="password" name="cnf_pw"/><br>
+    			</label>
+    		</div>
+    		<br>
+    		<div id="subb"><center><input id="sub" type="submit" value="Create Account" /><br></center></div>
+	</form>
+</div>
+</center>
+<br><br>
+<center>
+
+<div class="navele" id="signup"><a class="nav_a" href="index.html"> Already have an account?</a></div>
+</center>
+</body>
+</html>

@@ -1,0 +1,298 @@
+@font-face{
+
+  font-family: dosia;
+  src: url("Dosis-ExtraBold.ttf");
+}
+@media only screen and (min-width: 769px){
+			body.home{
+			background-image: url(homeback.png);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size:cover; }
+		
+		#error{
+				color:red;
+				position:absolute;
+				margin-top:-50px;
+				margin-left:35px;
+				font-size:10px;
+		}
+		
+		#b1{
+			display: flex; 
+		}
+
+		img{
+			width: 100px;
+			margin:0px;
+			padding: 0;
+		}
+		#subh{
+			font-size: 30%;
+			color: #0D47A1;
+			font-family:sans-serif; 
+			-webkit-text-stroke-width:1px;
+			-webkit-text-stroke-color:white;
+			}
+			
+		#line{
+			background: #FFF;
+			align-self: left;
+			width: 60%;
+			height: 10px;
+			border-radius: 20px;
+		}
+
+		.login_form{
+			text-align: center;
+			font-family: Arial;
+			position: relative;
+			width: 20%;
+			margin-top: 5%;
+			margin-bottom: 5%;
+			border: 2px solid #64B5F6;
+			background-color: #E3F2FD;
+			background-position: center center;
+			border-radius: 5%;
+			opacity:0.8; 
+			padding: 25px;
+		}
+
+		.txt{
+			text-decoration: none;
+			width: 90%;
+			max-height: 40%;
+			width:80%;
+			margin-left:10%;
+			margin-right: 10%;
+			border-radius: 5%;	}
+
+		.indic{
+			font-family:monospace;
+			color: #0D47A1;
+			padding-bottom:4%;
+			padding-top:8%;
+			margin-left: 10%;
+			margin-right: 10%;
+			font-size: 100%;
+		}
+
+
+		#sub{
+
+			padding: 3%;
+			margin-right:35% ;
+			margin-left: 35%;
+			color: white; 
+			background: #303F9F;
+			align-content: center;
+			font-weight: bold;
+			border-style: none;
+			}
+
+		#sub:hover{
+			background-color: darkgray;}
+
+
+		form{
+			padding: 10%;
+			text-align: left;
+
+		}
+
+		.nav{
+			list-style: none;
+			display: block;
+			padding-bottom: 1%;
+		margin-bottom: 0px;}
+
+		.navele{
+			font-weight: bold;
+			font-family: 'Indie Flower' , cursive;
+			display: inline;
+			font-size: 1.5em;
+			border: 2px solid black;
+			color: white;
+			background-color: #01579B;
+			padding-left: 1%;
+			padding-right:1%; 
+			align-content: center;
+			border-color: gray;
+			border-radius: 10%;}
+					
+		.navele:hover{
+			background-color: darkgray;}
+
+		.heading{
+			top: 0;
+			left: 0;
+			position: absolute;
+			margin: 0px;
+			font-weight: bold;
+			text-decoration: none;
+			font-family: 'dosia' ;
+			color: white;
+			font-size: 5em;
+			position: relative;
+		 }
+
+		 input{
+		 	border-radius: 10%;
+		 	border:2px solid #64B5F6;
+		 }
+					
+		.nav_a{
+			text-decoration: none;
+			color: white;
+			font-size: 100%;}
+
+		#signup{
+			
+		}
+}
+@media only screen and (max-width: 768px){
+			body.home{
+			background-image: url(homeback.png);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size:cover;
+			background-position: right;
+		}
+		#b1{
+			display: flex; 
+			max-width: 80%;
+		}
+		.imgg{
+			width:50px;
+			max-width: 30%;
+		}
+		img{
+			width:100%;
+			margin:0px;
+			padding: 0;
+		}
+		#subh{
+			display: block;
+			font-size: 80%;
+			color: white;
+			font-family:sans-serif; 
+			-webkit-text-stroke-width:0.6px;
+			-webkit-text-stroke-color:#0D47A1;
+			}
+			
+		#line{
+			background: #FFF;
+			align-self: left;
+			width: 90%;
+			height: 20px;
+			border-radius: 20px;
+		}
+
+		.login_form{
+			text-align: center;
+			font-family: Arial;
+			position: relative;
+			width: 80%;
+			margin-top: 5%;
+			border: 2px solid #64B5F6;
+			background-color: #E3F2FD;
+			background-position: center center;
+			border-radius: 5%;
+			opacity:0.8; 
+		}
+
+		.txt{
+			text-decoration: none;
+			width: 90%;
+			max-height: 40%;
+			width:80%;
+			margin-left:10%;
+			margin-right: 10%;
+			border-radius: 5%;	}
+
+		.indic{
+			font-family:monospace;
+			color: #0D47A1;
+			padding-bottom:4%;
+			padding-top:8%;
+			margin-left: 10%;
+			margin-right: 10%;
+			font-size: 100%;
+		}
+
+
+		#sub{
+			padding: 3%;
+			margin-right:35% ;
+			margin-left: 35%;
+			color: white; 
+			background: #303F9F;
+			align-content: center;
+			font-weight: bold;
+			border-style: none;
+			}
+
+		#sub:hover{
+			background-color: darkgray;}
+
+
+		form{
+			padding: 10%;
+			text-align: left;
+
+		}
+
+		.nav{
+			list-style: none;
+			display: block;
+			padding-bottom: 1%;
+		margin-bottom: 0px;}
+
+		.navele{
+			font-weight: bold;
+			#font-family: 'Indie Flower' , cursive;
+			display: inline;
+			font-size: 1.5em;
+			border: 2px solid black;
+			color: white;
+			background-color: #01579B;
+			padding-left: 1%;
+			padding-right:1%; 
+			align-content: center;
+			border-color: gray;
+			border-radius: 10%;}
+					
+		.navele:hover{
+			background-color: darkgray;}
+
+		.heading{
+			top: 0;
+			left: 0;
+			position: absolute;
+			margin: 0px;
+			font-weight: bold;
+			text-decoration: none;
+			font-family: 'Indie Flower' ;
+			color: white;
+			max-width: 80% !important;
+			font-size: 150%;
+			position: relative;
+		 }
+
+		 input{
+		 	border-radius: 10%;
+		 	border:2px solid #64B5F6;
+		 }
+					
+		.nav_a{
+			text-decoration: none;
+			color: white;
+			font-size: 100%;}
+
+		#signup{
+			
+		}
+		
+		
+
+}
